@@ -11,7 +11,7 @@ export default defineConfig({
       { text: 'Getting Started', link: '/Getting Started/installation' }
     ],
 
-    logo: {src: '/Home Page Image.png', width: 24, height: 24},
+    logo: {src: '/nekrosis.png', width: 24, height: 24},
 
     sidebar: [
       {

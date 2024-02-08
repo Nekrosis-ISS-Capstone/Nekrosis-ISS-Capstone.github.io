@@ -6,7 +6,7 @@ hero:
   name: "Nekrosis"
   tagline: Multi-platform persistence toolkit for user-provided payloads.
   image:
-    src: /Home Page Image.png
+    src: /nekrosis.png
     alt: Nekrosis Logo
   actions:
     - theme: brand
