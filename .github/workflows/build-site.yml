@@ -15,16 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'Nekrosis-ISS-Capstone'
     steps:
+      - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: '0'
-          persist-credentials: false
-          submodules: 'recursive'
 
       - name: Install
         run: npm install
@@ -35,7 +30,11 @@ jobs:
       - name: List contents of dist
         run: ls -R docs/.vitepress/dist/
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main'}}
         with:
-          path: docs/.vitepress/dist
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/.vitepress/dist/
+          CLEAN: true
