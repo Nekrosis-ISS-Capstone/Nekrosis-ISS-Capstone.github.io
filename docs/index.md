@@ -25,7 +25,7 @@ features:
     details: Deploy as a Python script, integrated into larger projects, or use as a standalone binary.
   - title: Self destruction
     icon: 🧨
-    details: Configure to nuke itself and the original payload, removing all traces of the malware.
+    details: Configure to nuke itself and the original payload, removing traces of the initial deployment.
 ---
 
 
