@@ -1,1 +1,1 @@
-# Shortcut-based Persistence
+# Shortcut Persistence

@@ -45,6 +45,7 @@ export default defineConfig({
         text: 'Linux',
         items: [
           { text: 'Cron Jobs', link: '/Persistence Methods/Linux Persistence/cronjobs' },
+          { text: 'systemd', link: '/Persistence Methods/Linux Persistence/systemd' },
         ]
       },
     ],

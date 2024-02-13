@@ -1,1 +1,1 @@
-# Launch Services-based Persistence
+# Launch Service Persistence

@@ -17,7 +17,7 @@ hero:
       link: /Persistence Methods/overview
 
 features:
-  - title: OS Agnostic
+  - title: OS agnostic
     icon: 🖥️
     details: Supports Windows, Linux, and macOS, taking the guesswork out of cross-platform malware deployment.
   - title: Versatile
