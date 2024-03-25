@@ -22,6 +22,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Usage',
+        items: [
+          { text: 'Command Line', link: '/Usage/cli' },
+          { text: 'Python API', link: '/Usage/api' }
+        ]
+      },
+      {
         text: 'Persistence',
         items: [
           { text: 'Overview', link: '/Persistence Methods/overview' },
