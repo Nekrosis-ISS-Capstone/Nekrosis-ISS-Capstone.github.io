@@ -1,3 +1,18 @@
 # Cron Job Persistence
 
-See [macOS Cron Job Persistence](../macOS%20Persistence/cronjobs.md) for more information on cron jobs.
+### Description
+
+### Available Method
+
+| Method                   | Requires      | Runs As      |
+|:-------------------------|:--------------|:-------------|
+|  |  |  |
+
+### Demo:
+
+#### - Cronjob - Current User
+
+![]()
+
+#### - Cronjob - Root
+![]()

@@ -1,4 +1,4 @@
-# launchd Persistence: Electron (User)
+# launchd Persistence: Global User (Root Volume)
 
 ### Description
 
@@ -8,17 +8,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vulputate nisi in
 
 | Method                       | Requires      | Runs As      |
 |:-----------------------------|:--------------|:-------------|
-| `LaunchAgent - Electron`     | Standard User | Root         |
+| `LaunchAgent - System`       | Root          | Current User |
 
 
 ### Demo:
 
-#### - LaunchAgent - Electron
+#### - LaunchAgent - System
 
 ::: code-group
 
 ```shell [Command Line]
-nekrosis --payload /path/to/payload --method "LaunchAgent - Electron"
+nekrosis --payload /path/to/payload --method "LaunchAgent - System"
 ```
 
 ```python [Python API]
@@ -26,10 +26,10 @@ from nekrosis import Nekrosis
 
 nekrosis = Nekrosis(
   payload="/path/to/malware",
-  custom_method="LaunchAgent - Electron"
+  custom_method="LaunchAgent - System"
 )
 ```
 
 :::
 
-![](../../public/macOS%20Persistence%20Methods/LaunchAgent%20-%20Electron.png)
+![]()

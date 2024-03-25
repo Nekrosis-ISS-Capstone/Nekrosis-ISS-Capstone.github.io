@@ -37,8 +37,8 @@ export default defineConfig({
             link: '/Persistence Methods/Windows Persistence/overview',
             items: [
               { text: 'Run Key', link: '/Persistence Methods/Windows Persistence/runkey' },
-              { text: 'Startup Folder', link: '/Persistence Methods/Windows Persistence/startupfolder' },
               { text: 'Shortcut', link: '/Persistence Methods/Windows Persistence/shortcut' },
+              { text: 'Startup Folder', link: '/Persistence Methods/Windows Persistence/startupfolder' },
             ]
           },
           {
@@ -50,6 +50,8 @@ export default defineConfig({
               { text: 'launchd - Root', link: '/Persistence Methods/macOS Persistence/launchd-root' },
               { text: 'launchd - Electron (User)', link: '/Persistence Methods/macOS Persistence/launchd-electron-user' },
               { text: 'launchd - Electron (Root)', link: '/Persistence Methods/macOS Persistence/launchd-electron-root' },
+              { text: 'launchd - System (User)', link: '/Persistence Methods/macOS Persistence/launchd-global-user-root-volume' },
+              { text: 'launchd - System (Root)', link: '/Persistence Methods/macOS Persistence/launchd-root-root-volume' },
               { text: 'Cron Jobs', link: '/Persistence Methods/macOS Persistence/cronjobs' },
             ]
           },
