@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Installation and Usage
-      link: /Getting Started/installation
+      link: /Installation/cli
     - theme: alt
       text: Supported Persistence Methods
       link: /Persistence Methods/overview

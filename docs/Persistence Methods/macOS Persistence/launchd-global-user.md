@@ -1,4 +1,4 @@
-# Run key Persistence
+# launchd Persistence: Global (User)
 
 
 

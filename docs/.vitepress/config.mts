@@ -8,48 +8,63 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/Getting Started/installation' }
+      { text: 'Getting Started', link: '/Installation/cli' }
     ],
 
     logo: {src: '/nekrosis.png', width: 24, height: 24},
 
     sidebar: [
       {
-        text: 'Getting Started',
+        text: 'Installation',
         items: [
-          { text: 'Installation', link: '/Getting Started/installation' },
-          { text: 'Usage', link: '/Getting Started/usage' }
+          { text: 'Command Line', link: '/Installation/cli' },
+          { text: 'Python API', link: '/Installation/api' }
         ]
       },
       {
         text: 'Persistence',
         items: [
           { text: 'Overview', link: '/Persistence Methods/overview' },
+          {
+            text: 'Windows Persistence',
+            link: '/Persistence Methods/Windows Persistence/overview',
+            items: [
+              { text: 'Run Key', link: '/Persistence Methods/Windows Persistence/runkey' },
+              { text: 'Startup Folder', link: '/Persistence Methods/Windows Persistence/startupfolder' },
+              { text: 'Shortcut', link: '/Persistence Methods/Windows Persistence/shortcut' },
+            ]
+          },
+          {
+            text: 'macOS Persistence',
+            link: '/Persistence Methods/macOS Persistence/overview',
+            items: [
+              { text: 'launchd - Current User', link: '/Persistence Methods/macOS Persistence/launchd-current-user' },
+              { text: 'launchd - Global User', link: '/Persistence Methods/macOS Persistence/launchd-global-user' },
+              { text: 'launchd - Root', link: '/Persistence Methods/macOS Persistence/launchd-root' },
+              { text: 'launchd - Electron (User)', link: '/Persistence Methods/macOS Persistence/launchd-electron-user' },
+              { text: 'launchd - Electron (Root)', link: '/Persistence Methods/macOS Persistence/launchd-electron-root' },
+              { text: 'Cron Jobs', link: '/Persistence Methods/macOS Persistence/cronjobs' },
+            ]
+          },
+          {
+            text: 'Linux Persistence',
+            link: '/Persistence Methods/Linux Persistence/overview',
+            items: [
+              { text: 'systemd', link: '/Persistence Methods/Linux Persistence/systemd' },
+              { text: 'Cron Jobs', link: '/Persistence Methods/Linux Persistence/cronjobs' },
+            ]
+          },
         ],
       },
       {
-        text: 'Windows',
+        text: 'Sample Payloads',
         items: [
-          { text: 'Run Key', link: '/Persistence Methods/Windows Persistence/runkey' },
-          { text: 'Startup Folder', link: '/Persistence Methods/Windows Persistence/startupfolder' },
-          { text: 'Shortcut', link: '/Persistence Methods/Windows Persistence/shortcut' },
-        ]
-      },
-      {
-        text: 'macOS',
-        items: [
-          { text: 'Launch Services', link: '/Persistence Methods/macOS Persistence/launchservices' },
-        ]
-      },
-      {
-        text: 'Linux',
-        items: [
-          { text: 'Cron Jobs', link: '/Persistence Methods/Linux Persistence/cronjobs' },
-          { text: 'systemd', link: '/Persistence Methods/Linux Persistence/systemd' },
+          { text: 'Windows Payload', link: '/Sample Payloads/windows' },
+          { text: 'macOS Payload', link: '/Sample Payloads/macos' },
+          { text: 'Linux Payload', link: '/Sample Payloads/linux' },
         ]
       },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Nekrosis-ISS-Capstone/Nekrosis' }
     ]
