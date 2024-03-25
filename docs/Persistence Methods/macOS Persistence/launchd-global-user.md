@@ -2,7 +2,7 @@
 
 ### Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vulputate nisi in felis vulputate convallis. Vivamus lacus lorem, facilisis quis mi quis, fermentum cursus urna. Etiam dapibus, nisl sit amet porttitor tempus, tortor augue auctor ante, nec faucibus enim sapien in diam.
+`launchd` is macOS's first userspace process, and offers a "Launch Agent" system for running processes at user login. Similar to `LaunchAgent - Current User`, this method will run the payload as the current user. However, it will run at login for all users and will install the Launch Agent in the global `/Library/LaunchAgents` directory.
 
 ### Available Method
 

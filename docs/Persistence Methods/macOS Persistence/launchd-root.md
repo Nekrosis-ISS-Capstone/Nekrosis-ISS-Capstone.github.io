@@ -2,7 +2,7 @@
 
 ### Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vulputate nisi in felis vulputate convallis. Vivamus lacus lorem, facilisis quis mi quis, fermentum cursus urna. Etiam dapibus, nisl sit amet porttitor tempus, tortor augue auctor ante, nec faucibus enim sapien in diam.
+`launchd` is macOS's first userspace process, and offers a "Launch Daemon" system for running processes at system boot. This method will run the payload as the root user, and will install the Launch Daemon in the `/Library/LaunchDaemons` directory.
 
 ### Available Method
 

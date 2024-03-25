@@ -20,12 +20,17 @@ python -m pip install nekrosis
 ```
 :::
 
-Now, you can use the `nekrosis` command in your terminal to access the tool.
+![](../public/Installation/PyPI.png)
+
+Now, verify you can import it correctly:
+
 ::: code-group
 ```shell [Command Line]
-nekrosis --help
+python3 -c "import nekrosis; print(nekrosis.__version__)"
 ```
 :::
+
+Once you have verified the installation, head to the [Usage](../Usage/api.md) section to learn how to use Nekrosis.
 
 
 ### GitHub Source
@@ -43,17 +48,20 @@ git clone https://https://github.com/Nekrosis-ISS-Capstone/Nekrosis.git
 ```
 :::
 
-Next, navigate to the cloned repositsory and install the required dependencies using the following command:
+Next, navigate to the cloned repository and install the required dependencies using the following command:
 ::: code-group
 ```shell [Command Line]
+cd ./Nekrosis
 python -m pip install -r requirements.txt
 ```
 :::
 
-Now, you can use the `nekrosis` command in your terminal to access the tool.
+Now, verify you can import it correctly:
 
 ::: code-group
 ```shell [Command Line]
-./nekrosis --help
+python -c "import nekrosis; print(nekrosis.__version__)"
 ```
 :::
+
+Once you have verified the installation, head to the [Usage](../Usage/api.md) section to learn how to use Nekrosis.

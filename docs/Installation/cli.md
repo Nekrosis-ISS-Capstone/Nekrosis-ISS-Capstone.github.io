@@ -25,6 +25,8 @@ Once downloaded, head to the directory where the binary is located and run the f
 ```
 :::
 
+![](../public/Installation/Run.png)
+
 ::: tip
 Ensure the binary is executable by running `chmod +x nekrosis` before running the command.
 :::

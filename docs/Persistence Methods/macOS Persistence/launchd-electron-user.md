@@ -2,7 +2,9 @@
 
 ### Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vulputate nisi in felis vulputate convallis. Vivamus lacus lorem, facilisis quis mi quis, fermentum cursus urna. Etiam dapibus, nisl sit amet porttitor tempus, tortor augue auctor ante, nec faucibus enim sapien in diam.
+Based off the `LaunchAgent - Current User` method, this method will create a Launch Agent that will execute an Electron application as the current user. This method exploits misconfigured Electron applications allowing for arbitrary code execution.
+
+This method allows for usage of CVEs such as CVE-2023-7245, CVE-2023-50975 and CVE-2024-23755.
 
 ### Available Method
 

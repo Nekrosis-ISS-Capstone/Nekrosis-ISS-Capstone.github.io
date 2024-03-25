@@ -2,7 +2,9 @@
 
 ### Description
 
-Uses the cron daemon to execute payload at login. Cron jobs can be set up to run as the current user or as root.
+This method relies on the unix utility `cron` to schedule tasks to run at startup. Can be configured to run payloads as the current user or as root.
+
+Note in macOS: Usage of `cron` is deprecated in favor of `launchd` for scheduling tasks, and may be removed in future versions. However, `cron` is still available and can be used for persistence.
 
 ### Available Methods
 
@@ -14,7 +16,6 @@ Uses the cron daemon to execute payload at login. Cron jobs can be set up to run
 ### Demo:
 
 #### - Cronjob - Current User
-
 
 ::: code-group
 
