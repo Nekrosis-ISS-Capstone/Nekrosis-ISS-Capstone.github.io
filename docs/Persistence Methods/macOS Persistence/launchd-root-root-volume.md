@@ -1,4 +1,4 @@
-# launchd Persistence: Root (Root Volume)
+# launchd Persistence: System (Root)
 
 ### Description
 

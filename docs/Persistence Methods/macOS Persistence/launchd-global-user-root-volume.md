@@ -1,4 +1,4 @@
-# launchd Persistence: Global User (Root Volume)
+# launchd Persistence: System (Global)
 
 ### Description
 

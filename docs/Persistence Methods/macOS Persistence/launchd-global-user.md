@@ -1,4 +1,4 @@
-# launchd Persistence: Global (User)
+# launchd Persistence: Global User
 
 ### Description
 
