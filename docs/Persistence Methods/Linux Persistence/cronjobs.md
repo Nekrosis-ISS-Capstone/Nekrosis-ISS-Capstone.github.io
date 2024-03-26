@@ -32,7 +32,7 @@ nekrosis = Nekrosis(
 
 :::
 
-![](../../public/Linux%20Persistence%20Methods/Cronjob%20-%20Current%20User.png)
+![](/public/../Linux%20Persistence%20Methods/Cronjob%20-%20Current%20User.png)
 
 
 #### - Cronjob - Root
@@ -55,4 +55,4 @@ nekrosis = Nekrosis(
 :::
 
 
-![](../../public/Linux%20Persistence%20Methods/Cronjob%20-%20Root.png)
+![](/public/../Linux%20Persistence%20Methods/Cronjob%20-%20Root.png)

@@ -34,4 +34,4 @@ nekrosis = Nekrosis(
 
 :::
 
-![](../../public/macOS%20Persistence%20Methods/LaunchDaemon%20-%20Electron.png)
+![](/public/../macOS%20Persistence%20Methods/LaunchDaemon%20-%20Electron.png)

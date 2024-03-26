@@ -32,4 +32,4 @@ nekrosis = Nekrosis(
 
 :::
 
-![](../../public/macOS%20Persistence%20Methods/LaunchDaemon%20-%20Library.png)
+![](/public/../macOS%20Persistence%20Methods/LaunchDaemon%20-%20Library.png)

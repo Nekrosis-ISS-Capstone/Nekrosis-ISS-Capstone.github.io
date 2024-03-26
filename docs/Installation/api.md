@@ -20,7 +20,7 @@ python -m pip install nekrosis
 ```
 :::
 
-![](../public/Installation/PyPI.png)
+![](/public/Installation/PyPI.png)
 
 Now, verify you can import it correctly:
 

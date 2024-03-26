@@ -12,7 +12,7 @@ First, head to the releases tab and view the latest release. From there, downloa
 
 :::
 
-![](../public/Installation/GitHub%20Download.png)
+![](/public/Installation/GitHub%20Download.png)
 
 
 ### Verification
@@ -25,7 +25,7 @@ Once downloaded, head to the directory where the binary is located and run the f
 ```
 :::
 
-![](../public/Installation/Run.png)
+![](/public/Installation/Run.png)
 
 ::: tip
 Ensure the binary is executable by running `chmod +x nekrosis` before running the command.
