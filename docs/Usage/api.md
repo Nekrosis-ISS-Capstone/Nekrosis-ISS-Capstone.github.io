@@ -20,17 +20,19 @@ nekrosis = Nekrosis(
 
 Here we have a number of functions we can call to interact with the `Nekrosis` class. The main functions of interest are:
 
-* `supported_persistence_methods()`
-* `recommended_persistence_method()`
-* `install()`
-* `nuke()`
-* `current_privilege_level_str()`
-* `is_admin()`
-* `download_payload()`
-* `change_payload()`
-* `change_custom_method()`
-* `reload()`
-* `export_persistence_methods()`
+| Function | Description |
+|:---------|:------------|
+| `supported_persistence_methods()` | List currently supported persistence methods. |
+| `recommended_persistence_method()` | Return the recommended persistence method. |
+| `install()` | Install the payload using the recommended persistence method. |
+| `nuke()` | Remove the payload and Nekrosis from the system. |
+| `current_privilege_level_str()` | Return the current privilege level as a string. |
+| `is_admin()` | Check if the current user is an administrator. |
+| `download_payload()` | Download file to temporary directory. |
+| `change_payload()` | Change the payload to a new file. Run `reload()` to apply changes. |
+| `change_custom_method()` | Change the custom method to a new method. Run `reload()` to apply changes. |
+| `reload()` | Reload the Nekrosis instance to apply changes to payload or custom method. |
+| `export_persistence_methods()` | Export the persistence methods to a supported format. |
 
 ## supported_persistence_methods()
 

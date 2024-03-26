@@ -8,12 +8,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/Installation/cli' }
+      { text: 'Getting Started', link: '/getting-started' }
     ],
 
     logo: {src: '/nekrosis.png', width: 24, height: 24},
 
     sidebar: [
+      {
+        text: 'Getting Started',
+        items: [
+          { text: 'Getting Started', link: '/getting-started' },
+        ]
+      },
       {
         text: 'Installation',
         items: [
