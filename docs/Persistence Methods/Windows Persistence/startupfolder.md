@@ -23,7 +23,7 @@ nekrosis.exe --payload \path\to\payload --method "Startup Folder (Current User)"
 
 :::
 
-![](/public/..//Windows%20Persistence%20Methods/Startup%20Folder%20(Current%20User).png)
+![](/public//Windows%20Persistence%20Methods/Startup%20Folder%20(Current%20User).png)
 
 
 #### - Startup Folder (Global)
@@ -35,4 +35,4 @@ nekrosis.exe --payload \path\to\payload --method "Startup Folder (Global)"
 ```
 :::
 
-![](/public/..//Windows%20Persistence%20Methods/Startup%20Folder%20(Global).png)
+![](/public//Windows%20Persistence%20Methods/Startup%20Folder%20(Global).png)

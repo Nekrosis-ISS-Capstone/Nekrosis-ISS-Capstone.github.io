@@ -34,7 +34,7 @@ nekrosis = Nekrosis(
 
 :::
 
-![](/public/../macOS%20Persistence%20Methods/Cronjob%20-%20Current%20User.png)
+![](/public/macOS%20Persistence%20Methods/Cronjob%20-%20Current%20User.png)
 
 
 
@@ -58,4 +58,4 @@ nekrosis = Nekrosis(
 :::
 
 
-![](/public/../macOS%20Persistence%20Methods/Cronjob%20-%20Root.png)
+![](/public/macOS%20Persistence%20Methods/Cronjob%20-%20Root.png)
