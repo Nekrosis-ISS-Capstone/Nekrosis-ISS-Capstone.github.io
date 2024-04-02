@@ -59,13 +59,13 @@ DenyUsers test
 
 Adding the dedicated user's credentials and the instruction directive:
 ```shell [Command Line]
-echo "username" >> username.txt
+echo -n "username" >> username.txt
 ```
 ```shell [Command Line]
-echo "password" >> password.txt
+echo -n "password" >> password.txt
 ```
 ```shell [Command Line]
-echo "COPY" >> instruction.txt
+echo -n "COPY" >> instruction.txt
 ```
 Serving the files for the payload to see:
 ```shell [Command Line]
