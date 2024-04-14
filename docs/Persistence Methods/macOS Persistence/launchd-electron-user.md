@@ -26,10 +26,11 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - Electron"
 ```python [Python API]
 from nekrosis import Nekrosis
 
-nekrosis = Nekrosis(
+nekrosis_obj = Nekrosis(
   payload="/path/to/malware",
   custom_method="LaunchAgent - Electron"
 )
+nekrosis_obj.install()
 ```
 
 :::

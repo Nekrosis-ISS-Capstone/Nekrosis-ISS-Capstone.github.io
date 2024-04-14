@@ -12,7 +12,7 @@ Once imported, let's create a basic instance of the `Nekrosis` class:
 
 ::: code-group
 ```python [Python API]
-nekrosis = Nekrosis(
+nekrosis_obj = Nekrosis(
   payload="/path/to/malware"
 )
 ```

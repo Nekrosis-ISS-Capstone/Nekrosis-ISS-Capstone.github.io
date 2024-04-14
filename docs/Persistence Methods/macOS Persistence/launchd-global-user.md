@@ -24,10 +24,11 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - Library"
 ```python [Python API]
 from nekrosis import Nekrosis
 
-nekrosis = Nekrosis(
+nekrosis_obj = Nekrosis(
   payload="/path/to/malware",
   custom_method="LaunchAgent - Library"
 )
+nekrosis_obj.install()
 ```
 
 :::

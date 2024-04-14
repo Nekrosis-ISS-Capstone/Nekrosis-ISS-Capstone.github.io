@@ -24,10 +24,11 @@ nekrosis --payload /path/to/payload --method "Cronjob - Current User"
 ```python [Python API]
 from nekrosis import Nekrosis
 
-nekrosis = Nekrosis(
+nekrosis_obj = Nekrosis(
   payload="/path/to/malware",
   custom_method="Cronjob - Current User"
 )
+nekrosis_obj.install()
 ```
 
 :::
@@ -46,10 +47,11 @@ nekrosis --payload /path/to/payload --method "Cronjob - Root"
 ```python [Python API]
 from nekrosis import Nekrosis
 
-nekrosis = Nekrosis(
+nekrosis_obj = Nekrosis(
   payload="/path/to/malware",
   custom_method="Cronjob - Root"
 )
+nekrosis_obj.install()
 ```
 
 :::
