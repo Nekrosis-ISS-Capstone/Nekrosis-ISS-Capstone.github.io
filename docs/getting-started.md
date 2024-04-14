@@ -9,3 +9,5 @@ The only requirement for Nekrosis is that a payload must be provided. The payloa
 ----------
 
 Nekrosis officially supported platforms include macOS, Windows, and Linux and offers both x86_64 and ARM64 binaries!
+
+![](/public/Getting%20Started/OS-Support.png)

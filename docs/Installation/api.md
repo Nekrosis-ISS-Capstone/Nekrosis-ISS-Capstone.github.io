@@ -16,11 +16,11 @@ Nekrosis is available either through PyPI or GitHub as source code. You can inst
 First, install Nekrosis through PyPI using the following command:
 ::: code-group
 ```shell [Command Line]
-python -m pip install nekrosis
+python3 -m pip install nekrosis
 ```
 :::
 
-![](/public/Installation/PyPI.png)
+![](/public/Installation/PyPI-Install.png)
 
 Now, verify you can import it correctly:
 
@@ -29,6 +29,8 @@ Now, verify you can import it correctly:
 python3 -c "import nekrosis; print(nekrosis.__version__)"
 ```
 :::
+
+![](/public/Installation/PyPI-Test.png)
 
 Once you have verified the installation, head to the [Usage](../Usage/api.md) section to learn how to use Nekrosis.
 
@@ -52,7 +54,7 @@ Next, navigate to the cloned repository and install the required dependencies us
 ::: code-group
 ```shell [Command Line]
 cd ./Nekrosis
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 :::
 
@@ -60,7 +62,7 @@ Now, verify you can import it correctly:
 
 ::: code-group
 ```shell [Command Line]
-python -c "import nekrosis; print(nekrosis.__version__)"
+python3 -c "import nekrosis; print(nekrosis.__version__)"
 ```
 :::
 
