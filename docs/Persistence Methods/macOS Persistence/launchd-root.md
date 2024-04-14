@@ -25,7 +25,7 @@ nekrosis --payload /path/to/payload --method "LaunchDaemon - Library"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchDaemon - Library"
 )
 nekrosis_obj.install()

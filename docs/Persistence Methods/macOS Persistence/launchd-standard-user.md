@@ -28,7 +28,7 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - Current User"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchAgent - Current User"
 )
 nekrosis_obj.install()
@@ -51,7 +51,7 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - Library"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchAgent - Library"
 )
 nekrosis_obj.install()

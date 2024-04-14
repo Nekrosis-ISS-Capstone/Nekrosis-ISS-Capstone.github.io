@@ -33,7 +33,7 @@ nekrosis --payload /path/to/payload --method "LaunchDaemon - System"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchDaemon - System"
 )
 nekrosis_obj.install()
@@ -53,7 +53,7 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - System"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchAgent - System"
 )
 nekrosis_obj.install()

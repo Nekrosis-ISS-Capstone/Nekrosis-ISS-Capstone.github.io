@@ -78,7 +78,7 @@ nekrosis --payload /path/to/payload --method "SystemdService"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="SystemdService"
 )
 nekrosis_obj.install()

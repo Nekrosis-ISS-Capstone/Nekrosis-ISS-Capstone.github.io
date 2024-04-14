@@ -28,7 +28,7 @@ nekrosis --payload /path/to/payload --method "LaunchAgent - Electron"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchAgent - Electron"
 )
 nekrosis_obj.install()
@@ -50,7 +50,7 @@ nekrosis --payload /path/to/payload --method "LaunchDaemon - Electron"
 from nekrosis import Nekrosis
 
 nekrosis_obj = Nekrosis(
-  payload="/path/to/malware",
+  payload="/path/to/payload",
   custom_method="LaunchDaemon - Electron"
 )
 nekrosis_obj.install()
