@@ -66,4 +66,4 @@ python3 -c "import nekrosis; print(nekrosis.__version__)"
 ```
 :::
 
-Once you have verified the installation, head to the [Usage](../Usage/api.md) section to learn how to use Nekrosis.
+Once you have verified the installation, head to the [Usage - API](../Usage/api.md) section to learn how to use Nekrosis.

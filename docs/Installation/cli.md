@@ -32,4 +32,4 @@ Ensure the binary is executable by running `chmod +x nekrosis` before running th
 :::
 
 
-Once verified, head to the [Usage](../Usage/cli.md) section to learn how to use Nekrosis.
+Once verified, head to the [Usage - CLI](../Usage/cli.md) section to learn how to use Nekrosis.
