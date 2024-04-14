@@ -32,13 +32,10 @@ Keep in mind Nekrosis' supported persistence methods are based on the privilege 
   * [Startup Folder](./Windows%20Persistence/startupfolder.md)
 
 * [macOS](./macOS%20Persistence/overview.md)
-  * [launchd - Current User](./macOS%20Persistence/launchd-current-user.md)
-  * [launchd - Global (User)](./macOS%20Persistence/launchd-global-user.md)
-  * [launchd - Root](./macOS%20Persistence/launchd-root.md)
-  * [launchd - Electron (User)](./macOS%20Persistence/launchd-electron-user.md)
-  * [launchd - Electron (Root)](./macOS%20Persistence/launchd-electron-root.md)
-  * [launchd - System (User)](./macOS%20Persistence/launchd-global-user-root-volume.md)
-  * [launchd - System (Root)](./macOS%20Persistence/launchd-root-root-volume.md)
+  * [launchd - Launch Agent](./macOS%20Persistence/launchd-standard-user.md)
+  * [launchd - Launch Daemon](./macOS%20Persistence/launchd-root.md)
+  * [launchd - Electron](./macOS%20Persistence/launchd-electron.md)
+  * [launchd - System](./macOS%20Persistence/launchd-root-volume.md)
   * [Cron Jobs](./macOS%20Persistence/cronjobs.md)
 
 * [Linux](./Linux%20Persistence/overview.md)

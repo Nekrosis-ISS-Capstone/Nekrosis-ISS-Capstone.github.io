@@ -1,4 +1,4 @@
-# launchd Persistence: Root
+# launchd Persistence: Launch Daemon
 
 ### Description
 

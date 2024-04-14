@@ -51,13 +51,10 @@ export default defineConfig({
             text: 'macOS Persistence',
             link: '/Persistence Methods/macOS Persistence/overview',
             items: [
-              { text: 'launchd - Current User', link: '/Persistence Methods/macOS Persistence/launchd-current-user' },
-              { text: 'launchd - Global User', link: '/Persistence Methods/macOS Persistence/launchd-global-user' },
-              { text: 'launchd - Root', link: '/Persistence Methods/macOS Persistence/launchd-root' },
-              { text: 'launchd - Electron (User)', link: '/Persistence Methods/macOS Persistence/launchd-electron-user' },
-              { text: 'launchd - Electron (Root)', link: '/Persistence Methods/macOS Persistence/launchd-electron-root' },
-              { text: 'launchd - System (User)', link: '/Persistence Methods/macOS Persistence/launchd-global-user-root-volume' },
-              { text: 'launchd - System (Root)', link: '/Persistence Methods/macOS Persistence/launchd-root-root-volume' },
+              { text: 'launchd - Launch Agent', link: '/Persistence Methods/macOS Persistence/launchd-standard-user' },
+              { text: 'launchd - Launch Daemon', link: '/Persistence Methods/macOS Persistence/launchd-root' },
+              { text: 'launchd - Electron', link: '/Persistence Methods/macOS Persistence/launchd-electron' },
+              { text: 'launchd - System', link: '/Persistence Methods/macOS Persistence/launchd-root-volume' },
               { text: 'Cron Jobs', link: '/Persistence Methods/macOS Persistence/cronjobs' },
             ]
           },
