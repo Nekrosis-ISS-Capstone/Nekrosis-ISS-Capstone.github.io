@@ -72,8 +72,7 @@ export default defineConfig({
         text: 'Sample Payloads',
         items: [
           { text: 'Windows Payload', link: '/Sample Payloads/windows' },
-          { text: 'macOS Payload', link: '/Sample Payloads/macos' },
-          { text: 'Linux Payload', link: '/Sample Payloads/linux' },
+          { text: 'Linux/macOS Payload', link: '/Sample Payloads/linux-macos' },
         ]
       },
     ],
