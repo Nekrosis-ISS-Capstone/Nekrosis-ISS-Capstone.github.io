@@ -1,5 +1,9 @@
 # Linux/macOS Payload: Autolycus
 
+### Source Code
+
+* https://github.com/Nekrosis-ISS-Capstone/Linux-Payload
+
 ### Description
 
 This is an example of a payload that can be used against a Linux based target in conjunction with the Nekrosis application. If Nekrosis is being used to demonstrate how an adversary could achieve persistence, this payload can be used to demonstrate the kind of code an adversary may deploy with their unauthorized access. This payload will call back to the C2 server to receive an instruction directive and will then proceed to recurse over the file system, copying all readable non-executable files to the C2 server over FTP.
